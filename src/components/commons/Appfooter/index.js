@@ -18,7 +18,6 @@ class AppFooter extends Component {
       <div className="app-footer">
             {this.state.navs.map(item => (<FooterNavItem key={item.id} data = {item}/>))}
             
-            <span className="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
       </div>
     );
   }
