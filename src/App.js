@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Appfooter from './conponents/commons/Appfooter';
+import Appfooter from './components/commons/Appfooter';
 import axios from 'axios';
 
 class App extends Component {
