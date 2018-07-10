@@ -1,0 +1,15 @@
+
+
+.clearfix{
+    &:after {
+        content: '';
+        display:block;
+        height:0;
+        overflow: hidden;
+        clear:both;
+    }
+}
+
+.page {
+    padding-top:0.9rem; 
+}
