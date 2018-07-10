@@ -67,25 +67,3 @@ table {
 .fr {
   float: right;
 }
-
-.clearfix:after {
-  content: '';
-  display: block;
-  height: 0;
-  overflow: hidden;
-  clear: both;
-}
-
-.page {
-  padding-top: 0.9rem;
-}
-
-.app-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  border: 1px solid;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}

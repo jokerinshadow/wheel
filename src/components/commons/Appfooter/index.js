@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink} from 'react-router-dom';
+import './index.scss';
 
 class AppFooter extends Component {
   constructor (props) {
@@ -16,6 +17,8 @@ class AppFooter extends Component {
     return (
       <div className="app-footer">
             {this.state.navs.map(item => (<FooterNavItem key={item.id} data = {item}/>))}
+            
+            <span className="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
       </div>
     );
   }

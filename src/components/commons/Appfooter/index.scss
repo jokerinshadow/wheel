@@ -1,1 +1,12 @@
-@import '../../../stylesheets/_base.scss';
+@import '../../../stylesheets/index.scss';
+
+
+.app-footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border: 1px solid ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
