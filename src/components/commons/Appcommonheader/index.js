@@ -2,6 +2,16 @@ import React, {Component} from 'react';
 import './index.scss';
 
 class Appcommonheader extends Component{
+    renderFilter(){
+        let {filter} = this.props;
+        if (filter) {
+            return (
+                <div className='header-rili'>
+                    <i className='glyphicon glyphicon-calendar'></i>
+                </div>
+            )
+        }
+    }
     render(){
         return (
             <div className='app-common-header'>
@@ -13,9 +23,7 @@ class Appcommonheader extends Component{
                     <i className='glyphicon glyphicon-search'></i>
                     共有5849场折扣演出在售
                 </div>
-                <div className='header-rili'>
-                    <i className='glyphicon glyphicon-film'></i>
-                </div>
+                {this.renderFilter()}
             </div>
         )
     }

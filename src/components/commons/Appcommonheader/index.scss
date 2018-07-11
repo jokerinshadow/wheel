@@ -1,22 +1,52 @@
 .app-common-header{
     width: 100%;
     background: #fff;
-    height: 4.4rem;
+    height: 0.53rem;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    padding-right: 0.2rem;
     .herder-address{
-        width: 7rem;
+        width: 0.84rem;
         font-size: 0.16rem;
         font-weight: bold;
         position: relative;
+        text-align: center;
+        line-height: .53rem;
         height: 100%;
         .triangle{
             position: absolute;
             height: 0px;
             width: 0px;
-            top: .5rem;
-            right: .5rem;
-            border-top: 1rem solid #000;
-            border-left: 1rem solid #000;
-            border-right: 1rem solid #000;
+            top: 45%;
+            right: 10%;
+            border-top: .06rem solid #000;
+            border-left: .06rem solid #fff;
+            border-right: .06rem solid #fff;
+            border-bottom: .06rem solid #fff;
         }
+    }
+    .header-search{
+        flex: 1;
+        height: 0.38rem;
+        background-color: #f4f4f5;
+        line-height: 0.38rem;
+        padding-left: 0.12rem;
+        font-size: 0.12rem;
+        color: #888;
+        .glyphicon-search{
+            color: #ff1d41;
+            margin-right: 0.11rem;
+            font-weight: bold;
+        }
+    }
+    .header-rili{
+        width: 0.52rem;
+        height: 0.26rem;
+        text-align: center;
+        font-size: 0.22rem;
+        line-height: 0.26rem;
     }
 }

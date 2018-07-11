@@ -14,7 +14,6 @@ const RouterView = props => {
                         <Route path = '/mine' component = {Mine}/>
                         <Route path = '/login' component = {Login}/>
                         <Redirect from = '**' to='/'/>
-
                     </Switch>  
                 </div>
         )
