@@ -6,7 +6,6 @@ class List extends Component {
     render() {
         return (
             <div>
-                list
                 <AppShowItemList/>
                 <Appfooter/>   
             </div>

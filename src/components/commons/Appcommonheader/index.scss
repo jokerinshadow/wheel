@@ -1,0 +1,22 @@
+.app-common-header{
+    width: 100%;
+    background: #fff;
+    height: 4.4rem;
+    .herder-address{
+        width: 7rem;
+        font-size: 0.16rem;
+        font-weight: bold;
+        position: relative;
+        height: 100%;
+        .triangle{
+            position: absolute;
+            height: 0px;
+            width: 0px;
+            top: .5rem;
+            right: .5rem;
+            border-top: 1rem solid #000;
+            border-left: 1rem solid #000;
+            border-right: 1rem solid #000;
+        }
+    }
+}

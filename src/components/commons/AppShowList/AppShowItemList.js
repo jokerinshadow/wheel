@@ -29,7 +29,7 @@ class AppShowItemList extends Component {
               <div className="right-part">
                 <div className="price">
                   <span className="number">389</span>
-                  元起
+                  <span>元起</span>
                 </div>
               </div>
               <div className="advertise">

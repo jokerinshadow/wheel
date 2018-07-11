@@ -1,22 +1,30 @@
 
 
 .show-item-list{
+
     .list{
         font-weight: bold;
         img{
             width: 1.08rem;
             height: 1.44rem;
         }
-        width: 3.45rem;
+        width: 3.55rem;
         height: 2.43rem;
-        border: 1px solid;
+        border-top: 1px solid rgb(228, 228, 228);
+        padding-top: 0.1rem;
         margin: 0 auto;
         display: flex;
         .right-column{
             width:3.45rem;
             height:2.10rem;
-            border:1px solid;
             position:relative;
+            padding-left: 0.2rem;
+            .left-part{
+                display: flex;
+                div{
+                    padding: 0 0.04rem;
+                }
+            }
         }
         .discount{
                 position: absolute;
@@ -49,14 +57,57 @@
             font-weight: bold;
         }
         .show-time{
+            margin-top: 0.1rem;
             font-size: 0.13rem;
             color: #95949d;
             line-height: 0.18rem;    
         
         }
         .show-avenue{
+            margin-top: 0.06rem;
+            margin-bottom: 0.1rem;
             font-size: 0.13rem;
             color: #95949d;
+        }
+        .advertise{
+            color: #95949d;
+            font-size: 0.13rem;
+            position: absolute;
+            width: 2.07rem;
+            height: 0.03rem;
+            border-top: 1px solid #95949d;
+            padding-top: 0.04rem;
+            bottom: -0.01rem;
+        }
+        .price{
+            margin-top: 0.3rem;
+            display: flex;
+            span{
+                width: auto;
+                padding: 0 0.01rem;
+                
+            }
+            span:nth-child(2){
+                    text-align: center;
+                    line-height: 0.24rem;
+            }
+            .number{
+                color:#ff1d41;
+                font-size: 0.18rem;
+            }
+
+            
+        }
+        .sell{
+            color: #ff6900;
+            background-color: rgba(255,105,0,.08);
+            margin-right: 0.02rem;
+            font-size: 0.12rem;
+        }
+        .seat-selectable{
+            color: #ff1d41;
+            background-color: rgba(255,29,65,.08);
+            font-size: 0.12rem;
         }
     }
 
