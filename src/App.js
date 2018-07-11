@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Appfooter from './components/commons/Appfooter';
 import axios from 'axios';
+import RouterView from './router';
 
 class App extends Component {
   componentWillMount(){
@@ -13,7 +13,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Appfooter/>
+        <RouterView/>
       </div>
     );
   }

@@ -7,17 +7,20 @@ class AppFooter extends Component {
       super(props);
       this.state = {
                 navs :[
-                    {id:1,title:'首页',icon:'',path:'/'},
-                    {id:2,title:'演出',icon:'',path:'/list'},
-                    {id:3,title:'我的',icon:'',path:'/mine'} 
+                    {id:1,title:'首页',icon:'',path:'/',className:'glyphicon glyphicon-home'},
+                    {id:2,title:'演出',icon:'',path:'/list',className:'glyphicon glyphicon-facetime-video '},
+                    {id:3,title:'我的',icon:'',path:'/mine',className:'glyphicon glyphicon-user'} 
                 ]
       }
+      this.changeNav = this.changeNav.bind(this);
+  }
+  changeNav(){
+      console.log('haha');
   }
   render() {
     return (
-      <div className="app-footer">
-            {this.state.navs.map(item => (<FooterNavItem key={item.id} data = {item}/>))}
-            
+      <div className="bottom-nav">
+            {this.state.navs.map(item => (<FooterNavItem key={item.id} data = {item} onClick = {this.changeNav}/>))}     
       </div>
     );
   }
@@ -25,8 +28,8 @@ class AppFooter extends Component {
 //无状态组件
 const FooterNavItem = ({data})=>{
     return (
-        <NavLink  to = {data.path} className ='nav-item'>
-            <i className = ''></i>
+        <NavLink  to = {data.path} className ='nav-item active'>
+            <i className = {data.className}></i>
             <span>{data.title}</span>
         </NavLink>
     )
