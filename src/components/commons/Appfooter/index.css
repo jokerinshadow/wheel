@@ -86,8 +86,8 @@ table {
   justify-content: space-around;
   position: fixed;
   bottom: 0;
-  min-height: 5rem;
-  max-height: 5rem;
+  min-height: 0.5rem;
+  max-height: 0.5rem;
   border-top: 1px solid #e4e4e4;
   overflow: hidden;
   width: 100%;
@@ -101,11 +101,11 @@ table {
   flex-direction: column;
   align-items: center;
   color: #333;
-  font-size: 0.6rem;
+  font-size: 12px;
 }
 
 .bottom-nav .nav-item i {
-  font-size: 2.2rem;
+  font-size: 0.26rem;
   color: gray;
   text-decoration: none;
 }
@@ -118,4 +118,10 @@ table {
 .bottom-nav .active {
   color: #ff1d41;
   text-decoration: none;
+}
+
+.bottom-nav span {
+  display: block;
+  width: 0.98rem;
+  text-align: center;
 }

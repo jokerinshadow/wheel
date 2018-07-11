@@ -24,7 +24,8 @@ class Login extends Component {
         })
     }
     renderCode(){
-        let { isSend } = this.props;
+
+        let { isSend } = this.state;
         if(!isSend) return (<span onClick = {this.clickCode}>获取验证码</span>)
         return ( <span  className='resend'>({this.state.num})重新获取</span>) //为什么这里可以？
     }
@@ -42,6 +43,7 @@ class Login extends Component {
         })
     }
     render(){
+        console.log('render');
         return (
             <div className='login'>
                 <Appheader  right = {false}/>
