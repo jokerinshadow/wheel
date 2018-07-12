@@ -1,0 +1,34 @@
+.home-classify{
+    width: 3.74rem;
+    height:3.24rem;
+    padding-top: 0.22rem;
+    .home-classify-item{
+        width: 0.93rem;
+        height: 0.73rem;
+        float: left;
+        text-align: center;
+        img{
+            display: inline-block;
+            width: 0.43rem;
+            height: 0.43rem;
+        }
+        span{
+            display: block;
+            width: 0.93rem;
+            height: 0.3rem;
+            line-height: 0.3rem;
+            font-weight: normal;
+        }
+    }
+    .footer-ball{
+        width: 3.31rem;
+        height: 1.33rem;
+        padding-top: 0.23rem;
+        margin: 0 auto;
+        clear: both;
+        img{
+            width: 100%;
+            height: 1.06rem;
+        }
+    }
+}

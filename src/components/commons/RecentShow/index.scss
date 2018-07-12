@@ -1,0 +1,29 @@
+.recent{
+    width: 3.32rem;
+    height: 3.5rem;
+    padding-top: 0.29rem;
+    margin: 0 auto;
+    .recent-title{
+        font-size: 0.16rem;
+        font-weight: 700;
+        padding-bottom: 0.08rem;
+        span{
+            font-weight: 400;
+            color: #ff1d41;
+            float: right;
+            width: 0.64rem;
+        }
+    }
+    .swiper-container{
+        width: 3.53rem;
+        height: 2.82rem;
+        .swiper-wrapper .swiper-slide{
+            width: 1.4rem !important;
+            height: 2.82rem;
+            img{
+                width: 1.28rem;
+                height: 1.8rem;
+            }
+        }
+    }
+}

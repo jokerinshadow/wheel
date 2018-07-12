@@ -6,7 +6,7 @@ import './assets/lib/bootstrap-3.3.7-dist/css/bootstrap.min.css';
 //store
 import { Provider } from 'react-redux';
 import store from './store';
-
+import 'swiper/dist/css/swiper.min.css';
 //rem
 import './modules/rem.js';
 
