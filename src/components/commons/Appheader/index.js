@@ -23,7 +23,7 @@ class Appheader extends Component {
         return (
             <div className ='app-header'>
                 <i className='glyphicon glyphicon-chevron-left left' onClick={this.goBack}></i>
-                <i className='center'>登陆摩天轮票务</i>
+                <i className='center'>{this.props.title}</i>
                {this.renderFileter()}
             </div>
         )
