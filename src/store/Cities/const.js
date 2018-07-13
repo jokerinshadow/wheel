@@ -1,0 +1,3 @@
+const CHANGE_CITY_ID = 'CHANGE_CITY_ID'
+
+export {CHANGE_CITY_ID}

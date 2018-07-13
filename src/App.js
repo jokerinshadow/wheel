@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
-import axios from 'axios';
 import RouterView from './router';
+import { withRouter } from 'react-router-dom';
+import ConnectGroup from './modules/group'
 
 class App extends Component {
   componentWillMount(){
-    axios.get("https://m.moretickets.com/showapi/pub/site/58a2bb1d0cf273b891c85e8f/banner/app?siteCityOID=5101&time=1531201729369&src=m_web").then(
-      (res)=>{
-        
-      }
-    )
+    this.props.getInitialUserInfo();
   }
   render() {
     return (
@@ -19,4 +16,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default withRouter(ConnectGroup(App,['commons']))

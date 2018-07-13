@@ -17,6 +17,8 @@ import './modules/rem.js';
     import {
         BrowserRouter as Router
     } from 'react-router-dom'
+//轮播
+import 'swiper/dist/css/swiper.min.css';
 
 ReactDOM.render(
 <Provider store = {store}>

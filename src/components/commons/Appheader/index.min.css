@@ -1,1 +1,1 @@
-.app-header{height:0.6rem;width:100%;top:0;font-weight:bold;line-height:0.6rem;padding-left:0.12rem;padding-right:0.10rem;display:flex;justify-content:space-between;align-items:center;z-index:999}.app-header i{font-size:0.16rem}.app-header .rightNull{width:1%}
+.app-header{height:0.6rem;width:100%;top:0;font-weight:bold;line-height:0.6rem;padding-left:0.12rem;padding-right:0.10rem;display:flex;justify-content:space-between;align-items:center;z-index:999;position:fixed}.app-header i{font-size:0.16rem}.app-header .rightNull{width:1%}
