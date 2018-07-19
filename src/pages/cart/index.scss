@@ -1,0 +1,14 @@
+
+
+.cart .container .cart-item{
+    border: 1px solid;
+    display: flex ;
+    justify-content: space-around;
+    margin: 0.2rem 0.2rem;
+    button{
+        border: 1px solid;
+    }
+}
+.cart .clear-cart{
+    border: 1px solid;
+}

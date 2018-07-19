@@ -10,7 +10,7 @@ class ShowTimeTypes extends Component {
        renderSlides(){
             let { types } = this.props;
             return types.map(item =>(
-                <div key={ item.id } className='active swiper-slide swiper-slide-next'> { item.title }</div>
+                <div key={ item.id } className='swiper-slide swiper-slide-next'> { item.title }</div>
             ))
        }
         render(){

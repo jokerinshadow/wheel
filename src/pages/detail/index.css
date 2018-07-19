@@ -1,0 +1,26 @@
+.detail {
+  margin-top: 2rem;
+}
+
+.detail .container {
+  text-align: center;
+  line-height: 0.3rem;
+}
+
+.detail .container .price {
+  color: red;
+  font-weight: bold;
+}
+
+.detail .container .button {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  text-align: center;
+}
+
+.detail .container .count {
+  color: blue;
+  font-weight: bold;
+  padding: 0 0.02rem;
+}

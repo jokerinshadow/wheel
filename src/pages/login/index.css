@@ -1,13 +1,13 @@
-input {
+.login input {
   width: 100%;
   border: none;
 }
 
-.password {
+.login .password {
   width: 1.68rem;
 }
 
-span {
+.login span {
   display: block;
   width: 0.98rem;
   text-align: center;
@@ -16,13 +16,13 @@ span {
   padding-right: 0;
 }
 
-span img {
+.login span img {
   display: inline-block;
   width: 0.8rem;
   height: 0.34rem;
 }
 
-button {
+.login button {
   height: 0.6rem;
   line-height: 0.5rem;
   color: white !important;
@@ -35,12 +35,12 @@ button {
   border: none;
 }
 
-form {
+.login form {
   margin-top: 0.408rem;
   margin-bottom: 0.36rem;
 }
 
-form div {
+.login form div {
   width: 3rem;
   height: 0.5rem;
   border-bottom: 1px solid #494949;
@@ -51,7 +51,7 @@ form div {
   justify-content: space-between;
 }
 
-p {
+.login p {
   text-align: center;
   padding-top: 15px;
   color: #95949d;
@@ -60,6 +60,6 @@ p {
   width: 100%;
 }
 
-.resend {
+.login .resend {
   color: #323038;
 }
