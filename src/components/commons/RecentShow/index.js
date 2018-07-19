@@ -12,10 +12,9 @@ class RecentShow extends Component{
         }
     }
     getRecentShowData(){
-        axios.get('https://m.moretickets.com/showapi/pub/site/5101/recentShows?offset=0&length=10&siteCityOID=5101&time=1531313510488&src=m_web')
+        axios.get(this.props.url)
         .then(res => {
             this.setState({recents: res.data.result.data})
-            console.log(res.data.result.data)
         })
     }
     componentDidMount(){
@@ -27,6 +26,11 @@ class RecentShow extends Component{
             return (
                 <div className="swiper-slide"  key={item.showOID}>
                     <img src={item.posterURL}/>
+                    <span className='show-name'>{item.showName}</span>
+                    <span className='short-showdate'>{item.shortShowDate}</span>
+                    <p className='price'>
+                        <span className='number'>{item.minPrice}</span>元起
+                    </p>
                 </div>
             )
         })
@@ -39,7 +43,8 @@ class RecentShow extends Component{
                 freeModeSticky: true,
                 scrollbar: {
                     el: '.swiper-scrollbar',
-                    dragSize:30
+                    dragSize:100,
+                    hide:true
                 }
             })
         }
@@ -48,7 +53,7 @@ class RecentShow extends Component{
         return (
             <div className='recent'>
                 <div className='recent-title'>
-                近期热门
+                {this.props.title}
                     <span>查看更多</span>
                 </div>
                 <div ref={el => this.el = el} className="swiper-container">

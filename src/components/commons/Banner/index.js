@@ -42,11 +42,9 @@ class Banner extends Component{
     }
     render(){
         return (
-            <div className='banner swiper-container'>
+            <div ref={el => this.el = el} className='banner swiper-container'>
                 <div className="swiper-wrapper">
-                    <div className="swiper-slide">Slide 1</div>
-                    <div className="swiper-slide">Slide 2</div>
-                    <div className="swiper-slide">Slide 3</div>
+                    {this.renderBanner()}
                 </div>
             </div>
         )

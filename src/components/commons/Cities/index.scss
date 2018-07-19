@@ -1,0 +1,63 @@
+.cities{
+    .select-city{
+        background-color: #f2f2f2;
+        padding: 0 0.15rem;
+        margin-top: 0.6rem;
+        padding-right: 0.4rem;
+        position: relative;
+        z-index: 10;
+        overflow: hidden;
+        .dingwei{
+            font-size: 0.14rem;
+            color: #aaa;
+            margin-bottom: 0.12rem;
+            margin-top: 0.15rem;
+        }
+        .city{
+            width: 0.96rem;
+            max-height: 0.4rem;
+            line-height: 0.4rem;
+            text-align: center;
+            border-radius: 0.04rem;
+            background-color: #fff;
+            font-size: 0.16rem;
+            margin-bottom: 0.15rem;
+            margin-right: 0.1rem;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        .recent-city{
+            box-sizing: border-box;
+        }
+        .hot-cities{
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            flex-flow: row wrap;
+        }
+        .all-cities{
+            .title{
+                font-size: 0.14rem;
+                letter-spacing: -0.02rem;
+                color: #aaa;
+                margin-bottom: 0.12rem;
+                margin-top: 0.15rem;
+            }
+            .all-city{
+                margin: 0 -0.4rem 0 -0.15rem;
+                padding: 0 0.4rem 0 0.15rem;
+                background: #fff;
+                .city-item{
+                    line-height: 0.45rem;
+                    height: 0.45rem;
+                    background-color: #fff;
+                    font-size: 0.16rem;
+                    padding-left: 0.10rem;
+                    color: #494949;
+                    border-bottom: 0.02rem solid #e4e4e4;
+                }
+            }
+        }
+    }
+}

@@ -24,6 +24,39 @@
                 width: 1.28rem;
                 height: 1.8rem;
             }
+            span{
+                text-align: left;
+            }
+            .show-name{
+                width: 1.28rem;
+                padding-top: 0.07rem;
+                color: #000;
+                font-size: 0.13rem;
+                font-weight: 500;
+                line-height: 0.2rem;
+                height: 0.45rem;
+                overflow: hidden;
+            }
+            .short-showdate{
+                color: #95949d;
+                line-height: 0.2rem;
+                font-size: 0.12rem;
+                font-weight: normal;
+            }
+            .price{
+                font-size: 0.09rem;
+                color: #95949d;
+                line-height: 0.2rem;
+                margin: 0;
+                padding: 0;
+                text-align: left;
+                .number{
+                    font-size: 0.14rem;
+                    font-weight: 600;
+                    color: #ff1d41;
+                    display: inline;
+                }
+            }
         }
     }
 }
